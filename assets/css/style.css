@@ -1,0 +1,113 @@
+header {
+    background-color: #4aaaa5;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 10%;
+}
+
+body {
+    background-image: url("../images/memphis-mini.png");
+}
+
+h1 {
+    color: #ffffff;
+    font-family: font-family 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+}
+
+#header {
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+nav {
+    color: #cccccc;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    margin-right: 200px;
+    background-color: #ffffff;
+}
+
+.float {
+    float: left;
+    margin-right: 15px;
+}
+
+.nav-item {
+    float: right;
+    margin: 0 10px;
+}
+
+.nav-items-border {
+    border-left: 2px solid #cccccc;
+    padding-left: 10px;
+}
+
+h3 {
+    color: #4aaaa5;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer {
+    color: #4aaaa5;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 30px;
+}
+
+section {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin:0 auto;
+    padding-bottom: 30px;
+    width:70%;
+}
+
+title {
+    border-top: 10px solid #4aaaa5;
+    width: auto;
+    height: auto;
+}
+
+.middle {
+    
+    margin: 0 auto;
+}
+
+.main-section-text {
+    margin: 15px;
+}
+
+.input-contact {
+    color: #777777;
+    width: 100%;
+}
+
+#Message {
+    height: 150px;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}

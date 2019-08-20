@@ -1,33 +1,56 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>Contact</title>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <h1>Dima Dibb</h1>
-    </header>
-    <nav>
-        <ul>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
+    <div id="header">
+        <header>
+            <h1>Dima Dibb</h1>
+
+        </header>
+        <nav>
+
+            <div class="nav-item nav-items-border">About</div>
+            <div class="nav-item nav-items-border" >Portfolio</div>
+            <div class="nav-item">Contact</div>
+
+
+        </nav>
+    </div>
     <section>
-        <h3>Contact</h3>
-        <form>
-            <label>Name</label>
-            <input type="text">
-            <label>Email</label>
-            <input type="email">
-            <label>Message</label>
-            <textarea></textarea>
-            <input type="submit">
-        </form>
+
+        <article class="middle">
+
+            <h3>Contact</h3>
+            <form>
+                
+                    <label class="input-contact" for="name">Name</label>
+                <input class="input-contact"  id="name" type="text">
+
+                
+                    <label class="input-contact" for="email">Email</label>
+                <input class="input-contact" id="email" type="email">
+
+                
+                    <label class="input-contact" for="Message">Message</label>
+                <textarea class="input-contact" id="Message"></textarea>
+
+
+                <input id="submit" type="submit">
+
+            </form>
+
+        </article>
 
     </section>
-    <footer>copyright @</footer>
+    <footer>
+     <div class="footer-text">copyright @</div>   
+    </footer>
 
 </body>
+
+</html>
