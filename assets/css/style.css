@@ -53,11 +53,14 @@ nav {
 
 h3 {
     color: #4aaaa5;
+    border-bottom:2px solid #dddddd;
+   padding-bottom: 10px;
 }
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    height: 250px;;
 }
 
 footer {
@@ -109,5 +112,19 @@ title {
 
 #submit {
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #4aaaa5
+}
+.web{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
+.pic{
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+.done{
+    margin-left: 30px;
 }
