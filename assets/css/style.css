@@ -84,6 +84,11 @@ section {
     margin:0 auto;
     padding-bottom: 30px;
     width:70%;
+    height:470px;
+
+}
+.scroll{
+    overflow: scroll;
 }
 
 title {
