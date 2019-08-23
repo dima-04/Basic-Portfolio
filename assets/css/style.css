@@ -44,23 +44,33 @@ nav {
 .nav-item {
     float: right;
     margin: 0 10px;
+
+
+}
+a{
+    color: #cccccc;
+}
+a{
+    text-decoration-line: none;
 }
 
 .nav-items-border {
-    border-left: 2px solid #cccccc;
     padding-left: 10px;
+    border-left: 2px solid #cccccc;
+
 }
 
 h3 {
     color: #4aaaa5;
-    border-bottom:2px solid #dddddd;
-   padding-bottom: 10px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px;
 }
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    height: 250px;;
+    height: 250px;
+    ;
 }
 
 footer {
@@ -81,13 +91,13 @@ footer {
 section {
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin:0 auto;
+    margin: 0 auto;
     padding-bottom: 30px;
-    width:70%;
-    height:470px;
-
+    width: 70%;
+    height: 470px;
 }
-.scroll{
+
+.scroll {
     overflow: scroll;
 }
 
@@ -98,7 +108,6 @@ title {
 }
 
 .middle {
-    
     margin: 0 auto;
 }
 
@@ -117,19 +126,38 @@ title {
 
 #submit {
     color: #ffffff;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
 }
-.web{
-    margin-left: 30px;
-    margin-bottom: 20px;
-    
-}
-.pic{
-    margin-left: 30px;
-    margin-right: 40px;
-    margin-bottom: 20px;
 
+
+.project-name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding-top: 10%;
+  float: left;
 }
-.done{
-    margin-left: 30px;
+
+.project-pic {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    float: left;
+   
+}
+
+.project-container {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
 }
